@@ -1,0 +1,44 @@
+.settings {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+  width: 600px;
+  min-height: 150px;
+  margin: -175px 0 0 -272px;
+  background-color: #ddd;
+  border: #333;
+  padding: 15px 30px 15px 15px;
+  box-shadow: 1px 1px 1px #000;
+}
+.settings h3 {
+  text-transform: uppercase;
+  border-bottom: 1px solid #666;
+}
+.settings ul {
+  margin: 0 0 0 5px;
+  padding: 0;
+}
+.settings li {
+  list-style: none;
+  margin: 0 3px;
+  padding: 3px 0;
+  float: left;
+  width: 48%;
+  display: block;
+}
+.settings li li {
+  clear: both;
+  width: 100%;
+}
+.settings label {
+  width: 35%;
+  display: block;
+  float: left;
+  text-align: right;
+  padding-top: 3px;
+}
+.settings input {
+  width: 60%;
+  float: right;
+}
