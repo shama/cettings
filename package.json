@@ -29,12 +29,12 @@
   },
   "dependencies": {
     "vkey": "0.0.2",
-    "inherits": "~2.0.0",
-    "cettings": "~0.1.0"
+    "inherits": "~2.0.0"
   },
   "devDependencies": {
     "voxel-engine": "~0.18.4",
     "voxel-player": "~0.1.0",
+    "voxel-settings": "~0.1.0",
     "beefy": "~0.4.1"
   }
 }
